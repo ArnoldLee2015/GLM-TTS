@@ -19,7 +19,7 @@ GLM-TTS is a high-quality text-to-speech (TTS) synthesis system based on large l
 
 ## News & Updates
 
-- **[2025.12.10]** 🎉 The project is officially open-sourced, featuring inference scripts and a series of model weights.
+- **[2025.12.11]** 🎉 The project is officially open-sourced, featuring inference scripts and a series of model weights.
 - **[Coming Soon]** 2D Vocos vocoder update in progress.
 - **[Coming Soon]** Model Weights Optimized via Reinforcement Learning
 
@@ -37,7 +37,7 @@ GLM-TTS is a high-quality text-to-speech (TTS) synthesis system based on large l
 
 ### Environment Setup
 
-Ensure you use Python 3.10-Python 3.12 versions.
+Ensure you use Python 3.10 - Python 3.12 versions.
 
 ```bash
 # Clone repository

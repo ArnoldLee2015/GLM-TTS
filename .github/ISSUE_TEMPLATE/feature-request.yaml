@@ -1,5 +1,5 @@
 name: "\U0001F680 Feature request"
-description: Submit a request for a new GLMTTS feature / 提交一个新的 GLMTTS 的功能建议
+description: Submit a request for a new GLM-TTS feature / 提交一个新的 GLM-TTS 的功能建议
 labels: [ "feature" ]
 body:
   - type: textarea
