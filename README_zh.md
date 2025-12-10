@@ -7,13 +7,12 @@
 </div>
 
 <p align="center">
-    <a href="https://huggingface.co/zai-org/GLM-TTS" target="_blank">🤗 HuggingFace Space</a>
+    <a href="https://huggingface.co/zai-org/GLM-TTS" target="_blank">🤗 HuggingFace</a>
     &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://modelscope.cn/models/ZhipuAI/GLM-TTS" target="_blank">🤖 ModelScope Space</a>
+    <a href="https://modelscope.cn/models/ZhipuAI/GLM-TTS" target="_blank">🤖 ModelScope</a>
     &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="https://audio.z.ai/" target="_blank"> 🛠️Audio.Z.AI</a>
 </p>
-
 
 ## 模型介绍
 GLM-TTS 是一个基于大型语言模型的高质量文本到语音(TTS)合成系统，支持零样本语音克隆和流式推理。本系统采用两阶段架构：首先使用LLM生成语音token序列，然后使用Flow模型将token转换为高质量的音频波形。通过引入多奖励强化学习(Multi-Reward RL)框架，GLM-TTS能够生成更加富有表现力和情感色彩的语音，显著提升了传统TTS系统的表现力。
@@ -37,6 +36,7 @@ GLM-TTS 是一个基于大型语言模型的高质量文本到语音(TTS)合成�
 ## 快速开始
 
 ### 环境安装
+
 确保你使用 python3.10-python3.12 版本。
 
 ```bash

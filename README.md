@@ -7,14 +7,12 @@
 </div>
 
 <p align="center">
-    <a href="https://huggingface.co/zai-org/GLM-TTS" target="_blank">🤗 HuggingFace Space</a>
+    <a href="https://huggingface.co/zai-org/GLM-TTS" target="_blank">🤗 HuggingFace</a>
     &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://modelscope.cn/models/ZhipuAI/GLM-TTS" target="_blank">🤖 ModelScope Space</a>
+    <a href="https://modelscope.cn/models/ZhipuAI/GLM-TTS" target="_blank">🤖 ModelScope</a>
     &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="https://audio.z.ai/" target="_blank"> 🛠️Audio.Z.AI</a>
 </p>
-
-
 
 ## Model Introduction
 GLM-TTS is a high-quality text-to-speech (TTS) synthesis system based on large language models, supporting zero-shot voice cloning and streaming inference. This system adopts a two-stage architecture: first, it uses LLM to generate speech token sequences, then uses Flow model to convert tokens into high-quality audio waveforms. By introducing a Multi-Reward Reinforcement Learning framework, GLM-TTS can generate more expressive and emotional speech, significantly improving the expressiveness of traditional TTS systems.
@@ -38,6 +36,7 @@ GLM-TTS is a high-quality text-to-speech (TTS) synthesis system based on large l
 ## Quick Start
 
 ### Environment Setup
+
 Ensure you use Python 3.10-Python 3.12 versions.
 
 ```bash
