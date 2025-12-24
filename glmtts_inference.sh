@@ -18,7 +18,7 @@ for data_item in "${data_list[@]}"; do
     idle_gpu=$(get_idle_gpu)
     echo "Launching task: Data=$data_item | GPU=$idle_gpu"
     export CUDA_VISIBLE_DEVICES=$idle_gpu
-    python "$root_dir/glmtts_inference.py" \
+    python3 "$root_dir/glmtts_inference.py" \
         --data="$data_item" \
         --exp_name="$exp_name" \
         --sample_rate=$sample_rate \
