@@ -9,7 +9,7 @@ get_idle_gpu() {
 
 # Configuration
 exp_name="_test"
-data_list=("jarvis_zh")
+data_list=("jarvis_zh1" "jarvis_zh2" "jarvis_zh3" "jarvis_zh4" "jarvis_zh5")
 sample_rate=24000 # 24000 or 32000
 args="" # "--use_phoneme" or ""
 
